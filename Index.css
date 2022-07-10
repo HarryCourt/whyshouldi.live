@@ -5,7 +5,13 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-family: 'Edu SA Beginner', cursive;
+  
+}
+
+h1 { display: table-cell; vertical-align: middle; font-family: 'Edu SA Beginner', cursive; 
+  font-size: 50px; 
+  text-align: center; 
+  color: rgb(255, 255, 255); 
 }
 
 p {
@@ -32,15 +38,6 @@ html{
 body{
   height:100%; /* force the BODY element to match the height of the HTML element */
 }
-#cloud-container{
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  overflow:hidden;
-  //z-index:-1; /* Remove this line if it's not going to be a background! */
-}
 
 /*
 .center {
@@ -48,6 +45,7 @@ body{
   align-items: center;
   padding: 10px;
 }
+
 
 .center-vertical {
   display: flex;
