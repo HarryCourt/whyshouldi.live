@@ -11,4 +11,19 @@ body {
   p {
     font-family: verdana;
     font-size: 20px;
+    color: white;
+  }
+
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+
+  .center-vertical {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
