@@ -1,28 +1,35 @@
 body {
     background-color: rgb(22, 22, 22);
   }
-  
-  h1 {
-    color: white;
-    text-align: center;
-    font-family: 'Edu SA Beginner', cursive;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-    color: white;
-  }
 
-  .center {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-  }
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Edu SA Beginner', cursive;
+}
 
-  .center-vertical {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-  }
+p {
+  font-family: 'Edu SA Beginner', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgb(46, 104, 192);
+}
+
+
+.center {
+  margin: auto;
+  align-items: center;
+  padding: 10px;
+}
+
+.center-vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh
+}
