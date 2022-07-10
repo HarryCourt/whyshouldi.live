@@ -1,4 +1,4 @@
 // Test Function.
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello JavaScript!"
+    document.getElementById("test").innerHTML = "Tell me more..."
 }
