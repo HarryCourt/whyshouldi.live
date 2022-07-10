@@ -21,9 +21,8 @@ body {
   }
 
   .center-vertical {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
   }
