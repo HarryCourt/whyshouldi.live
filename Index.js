@@ -6,4 +6,5 @@ var reasons = [
 
 
 
-document.getElementById("test").innerHTML = "Tell me more..."
+//document.getElementById("test").innerHTML = "Tell me more..."
+document.getElementById("reasons").innerHTML = reasons[Math.floor(Math.random()*reasons.length)];
