@@ -24,31 +24,11 @@ a {
   color: rgb(46, 104, 192);
 }
 
-
-
-
-
-
-html{
-  min-height:100%;/* make sure it is at least as tall as the viewport */
-  position:relative;
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  line-height: 60px; /* vertically center the text there */
+  /*background: #6cf;*/
 }
-body{
-  height:100%; /* force the BODY element to match the height of the HTML element */
-}
-
-/*
-.center {
-  margin: auto;
-  align-items: center;
-  padding: 10px;
-}
-
-
-.center-vertical {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh
-}
-*/
